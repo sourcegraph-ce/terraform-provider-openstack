@@ -2,7 +2,7 @@ package openstack
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 
 	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/security/groups"

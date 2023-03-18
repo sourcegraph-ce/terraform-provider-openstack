@@ -11,7 +11,7 @@ package openstack
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 
 	"github.com/gophercloud/gophercloud"

@@ -3,7 +3,7 @@ package openstack
 import (
 	"bytes"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 
 	"github.com/gophercloud/gophercloud"
