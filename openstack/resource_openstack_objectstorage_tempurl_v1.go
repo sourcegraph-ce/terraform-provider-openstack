@@ -4,7 +4,7 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/url"
 	"strconv"
 	"time"

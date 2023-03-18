@@ -2,7 +2,7 @@ package openstack
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/gophercloud/gophercloud/openstack/identity/v3/users"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
