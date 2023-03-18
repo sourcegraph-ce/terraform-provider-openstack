@@ -2,7 +2,7 @@ package openstack
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/url"
 
 	"github.com/gophercloud/gophercloud/openstack/identity/v3/endpoints"
